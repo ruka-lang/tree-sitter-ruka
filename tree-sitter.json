@@ -1,0 +1,39 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "ruka",
+      "camelcase": "Ruka",
+      "title": "Ruka",
+      "scope": "source.ruka",
+      "file-types": [
+        "ruka"
+      ],
+      "injection-regex": "^ruka$",
+      "class-name": "TreeSitterRuka"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.0",
+    "license": "MIT",
+    "description": "tree-sitter grammar for the Ruka programming language",
+    "authors": [
+      {
+        "name": "Devon James Webb",
+        "email": "clake.dw@gmail.com"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/ruka-lang/ruka"
+    }
+  },
+  "bindings": {
+    "c": false,
+    "go": false,
+    "node": true,
+    "python": false,
+    "rust": false,
+    "swift": false,
+    "zig": true
+  }
+}
