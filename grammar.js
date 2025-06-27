@@ -1,7 +1,7 @@
 /**
  * @file tree-sitter grammar for the Ruka programming language
  * @author Devon James Webb <clake.dw@gmail.com>
- * @license MIT
+ * @license MIT, Apache-2.0
  */
 
 /// <reference types="tree-sitter-cli/dsl" />
