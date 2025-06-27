@@ -15,7 +15,7 @@
   ],
   "metadata": {
     "version": "0.0.0",
-    "license": "MIT",
+    "license": "MIT, Apache-2.0",
     "description": "tree-sitter grammar for the Ruka programming language",
     "authors": [
       {
